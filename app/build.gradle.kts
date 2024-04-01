@@ -5,7 +5,9 @@ plugins {
 android {
     namespace = "com.dhairyaparikh.spendwise"
     compileSdk = 34
-
+    buildFeatures{
+        viewBinding= true
+    }
     defaultConfig {
         applicationId = "com.dhairyaparikh.spendwise"
         minSdk = 24
